@@ -1,0 +1,54 @@
+{
+  "data": {
+    "result": [
+      {
+        "datetime.INTERVAL": "下午",
+        "datetime.date": "今天",
+        "datetime.time": "三点"
+      }
+    ]
+  },
+  "rc": 0,
+  "semantic": [
+    {
+      "intent": "CREATE",
+      "slots": [
+        {
+          "name": "datetime",
+          "value": "下午三点",
+          "normValue": "{\"datetime\":\"T15:00:00\",\"suggestDatetime\":\"2018-04-11T15:00:00\"}"
+        },
+        {
+          "name": "name",
+          "value": "clock"
+        }
+      ]
+    }
+  ],
+  "service": "scheduleX",
+  "uuid": "atn00021adf@ch574b0e28fbb66f1d01",
+  "text": "设置下午三点的闹钟",
+  "state": {
+    "fg::scheduleX::default::clockFinished": {
+      "datetime.INTERVAL": "1",
+      "datetime.time": "1",
+      "name": "1",
+      "operation": "1",
+      "state": "clockFinished"
+    }
+  },
+  "used_state": {
+    "datetime.INTERVAL": "1",
+    "datetime.time": "1",
+    "name": "1",
+    "operation": "1",
+    "state": "clockFinished",
+    "state_key": "fg::scheduleX::default::clockFinished"
+  },
+  "answer": {
+    "text": "好的，今天下午三点我会提醒您"
+  },
+  "dialog_stat": "dataInvalid",
+  "save_history": true,
+  "sid": "atn00021adf@ch574b0e28fbb66f1d01"
+}
