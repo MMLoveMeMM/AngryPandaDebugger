@@ -1,0 +1,2 @@
+这个项目主要是介绍Android APP的一些调试技术.
+具体详细请参考工程里面的文档:Android Studio调试.docx
